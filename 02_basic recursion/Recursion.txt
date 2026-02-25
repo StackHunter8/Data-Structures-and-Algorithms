@@ -1,0 +1,15 @@
+What is Recursion ?
+
+    - When a function calls itself until a specific condition gets meet is called a recursive function,Whereas this entire process is called as Recurssion.
+
+    Note :
+    1. When a specific condition is not given then  the iterations remains continued and it causes the stack to get overflow and thus the segmentatiion fault error is created.
+    2.When the recursive function completes its working it gets popped out from the stack.
+    3.when the function gets executed completely it returns to the previous call of the function within itself and then the next line after that code in that function gets executed.
+    4.If we call the function at the end of the function itself then it prints the execution in forward direction but if the function is written in between then the printing direction will get changed to backward.   
+
+
+    Types of recursive Functions
+
+    1.Non-Parameterized Function.
+    2.Parameterized Function.
