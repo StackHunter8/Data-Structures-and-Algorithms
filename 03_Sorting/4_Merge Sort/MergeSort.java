@@ -71,7 +71,8 @@ class MergeSort{
        
         for(int i = 0;i<temp.length;i++){
            arr[low + i] = temp[i];//it is done so that the values get places on the currect position in the original array
-        //    for example we have sorted the portion of the og array from indices 2 to 6 abd now in temp array the index of these arrays become from 0 to the last limit so in order to put the elements to its corret position the arr[low+i] is done     that means the 0 in the temp gets placed to low that is 2 + i i.e 0 of the og array and the position becomes 2 + 0 = 2;
+        //    for example we have sorted the portion of the og array from indices 2 to 6 abd now in temp array the index of these arrays become from 0 to the last limit so in order to put the elements to its corret position the arr[low+i] is done 
+        //     that means the 0 in the temp gets placed to low that is 2 + i i.e 0 of the og array and the position becomes 2 + 0 = 2;
         }
 
        
