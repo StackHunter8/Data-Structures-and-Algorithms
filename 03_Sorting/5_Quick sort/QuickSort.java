@@ -46,10 +46,11 @@ class QuickSort{
             }
 
             if(i<j){
+                //ithe swap karaich karan te pivot cchya left la sagle  small ani right la sagle graeater no havet so.
                 swap(arr,i,j);
             }
         }
-
+        // ithe acttually pivot che swapping honar for its correcct position.
         swap(arr,low,j);
         return j;
     }
